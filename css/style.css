@@ -53,3 +53,8 @@ figure{
     font-size: medium;
     font-weight: 400;
 }
+
+ul{
+    padding-left: 15px;
+    margin-top: 30px;
+}
