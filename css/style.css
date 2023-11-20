@@ -1,9 +1,13 @@
 body{
-    margin: 0;
+    margin: 0 auto;
 }
+
 
 header > img{
     width: 20%;
+    margin-left: 10px;
+
+
 }
 
 header{
@@ -12,6 +16,10 @@ header{
     background-repeat: repeat-x;
     background-size: 250px;
     padding-top: 30px;
+}
+
+main{
+    margin-left: 10px;
 }
 
 .written-by{
@@ -30,7 +38,12 @@ header{
 
 .small-text{
     font-size: smaller;
-    line-height: 0.1;
+    line-height: 1;
     font-weight:lighter;
+    margin-top: 1px;
+}
 
+figure{
+    width: auto;
+    margin-left: 0;
 }
