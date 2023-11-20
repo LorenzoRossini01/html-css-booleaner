@@ -1,38 +1,33 @@
 body{
-       margin: 0 auto;
+    margin: 0 auto;
+
 }
 
-.container1{
-    width: 100%;
-    margin: 0;
-}
 
-.container2{
-    width: 80%;
-    margin: auto;
-}
-
-#logo{
+header > img{
     width: 20%;
-    margin-left: 10%;
+    margin-left: 10px;
+
+
 }
 
 header{
     background-color: #4EA0FF;
     background-image: url(../img/pattern.png);
-    background-position: center;
-    background-repeat: repeat;
-    background-size: 25%;
+    background-repeat: repeat-x;
+    background-size: 250px;
     padding-top: 30px;
-    width: 100%;
-    height: auto;
-    margin: auto;
+}
+
+main{
+    margin-left: 10px;
 }
 
 .written-by{
     display: inline-block;
     font-weight:bold;
     color: #838383;
+
 }
 
 .author-link{
@@ -47,24 +42,16 @@ header{
     line-height: 1;
     font-weight:lighter;
     margin-top: 1px;
-    text-align: left;
 }
 
 figure{
-    width: 100%;
-    margin: 0;
-    text-align: center;
-}
-
-#container-img{
-    margin: 0 ;
-    height:auto;
-    width: 100%;
-}
-
-.img{
-    height:343px;
     width: auto;
+    margin-left: 0;
+}
+
+#paragraph{
+    width: 80%;
+    min-width: 460px;
 }
 
 .normal-text{
@@ -78,6 +65,7 @@ ul{
 }
 
 table{
+    width: 80%;
     min-width: 460px;
     border-collapse: collapse;
 }
@@ -128,4 +116,5 @@ h3{
     background-color: black;
     padding-left: 10px;
     line-height: 2;
+    
 }
