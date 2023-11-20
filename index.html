@@ -4,107 +4,118 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML CSS Booleaner</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
 </head>
 <body>
-    <!-- intestazione logo + sfondo -->
-    <header>
-        <img src="img/logo.svg" alt="">
-    </header>
+    <div class="container1">
+        
 
-    <!-- corpo principale pagina -->
-    <main>
-        <!-- titolone -->
-        <div>
-            <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
-            <div class="written-by">
-                <span>Scritto da</span>
-                <a class="author-link" href="">The Booleaner</a>
-                <p class="small-text">il 10/10/2020</p>
-            </div>
+            <!-- intestazione logo + sfondo -->
+            <header>
+                
+                    <img id="logo" src="img/logo.svg" alt="">
+                
+            </header>
+
+        <div class="container2">
+
+            <!-- corpo principale pagina -->
+            <main>
+                <!-- titolone -->
+                <div>
+                    <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
+                    <div class="written-by">
+                        <span>Scritto da</span>
+                        <a class="author-link" href="">The Booleaner</a>
+                        <p class="small-text">il 10/10/2020</p>
+                    </div>
+                </div>
+
+                <!-- immagini con didascalia -->
+                <figure>
+                    <div id="container-img">
+                        <img class="img" src="./img/tim-1.jpg" alt="">
+                        <img class="img" src="./img/tim-2.jpg" alt="">
+                    </div>
+                    <figcaption>
+                        <p class="small-text">1st Photo: Jhon S. and James L.Knight Foundation, by Scott Henrichsen <br>
+                        2nd Photo: Wikimedia, by Paul Clarke</p>
+                    </figcaption>
+                </figure>
+
+                <!-- testo scritto 1 -->
+                <section id="paragraph">
+                    <p class="normal-text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. <mark>Neque assumenda ea in consectetur, odio sed, veniam dicta autem voluptatum,</mark>amet dolore incidunt pariatur nobis! Voluptatum ipsa numquam assumenda quae quas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit vitae nisi quia illum accusamus dolorum, voluptas ipsam laborum facilis exercitationem iure eveniet asperiores vel minima soluta dolores veritatis, harum cum!
+                    </p>
+                </section>
+
+                <!-- unordered list -->
+                <section>
+                    <ul>
+                        <li class="normal-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus natus neque facilis deserunt voluptatibus voluptate!</li>
+                        <li class="normal-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus natus neque facilis deserunt voluptatibus voluptate!</li>
+                        <li class="normal-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus natus neque facilis deserunt voluptatibus voluptate!</li>
+                    </ul>
+                </section>
+
+                <!-- tabella -->
+                <section>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="column-small">Lorem, ipsum dolor.</th>
+                                <th class="column-small">Lorem, ipsum dolor.</th>
+                                <th class="column-big">Lorem, ipsum dolor.</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Lorem, ipsum dolor.</td>
+                                <td>Lorem, ipsum dolor.</td>
+                                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis delectus pariatur dignissimos autem voluptate nihil deleniti facere iure dolorem, quia blanditiis adipisci error. Enim aspernatur odit doloribus fugit optio! Quis.</td>
+                            </tr>
+
+                            <tr>
+                                <td>Lorem, ipsum dolor.</td>
+                                <td>Lorem, ipsum dolor.</td>
+                                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis delectus pariatur dignissimos autem voluptate nihil deleniti facere iure dolorem, quia blanditiis adipisci error. Enim aspernatur odit doloribus fugit optio! Quis.</td>
+                            </tr>
+
+                            <tr>
+                                <td>Lorem, ipsum dolor.</td>
+                                <td>Lorem, ipsum dolor.</td>
+                                <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis delectus pariatur dignissimos autem voluptate nihil deleniti facere iure dolorem, quia blanditiis adipisci error. Enim aspernatur odit doloribus fugit optio! Quis.</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+
+                <!-- testo scritto 2 -->
+                <section id="paragraph">
+                    <p class="normal-text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.Neque assumenda ea in consectetur, odio sed, veniam dicta autem voluptatum,amet dolore incidun <mark>t pariatur nobis! Voluptatum ipsa numquam assumenda quae quas! Lorem ipsum </mark>dolor sit amet consectetur adipisicing elit. Suscipit vitae nisi quia illum accusamus dolorum, voluptas ipsam laborum facilis exercitationem iure eveniet asperiores vel minima soluta dolores veritatis, harum cum!
+                    </p>
+                </section>
+            </main>
+
+            <!-- potrebbero interessarti -->
+            <footer>
+                <h3>Potrebbero interessarti</h3>
+
+                <div id="immagini-finali">
+                    <!-- immagine 1 -->
+                    <div id="img-1">
+                        <h2>Lorem, ipsum dolor.</h2>
+                </div>
+
+                    <!-- immagine 2 -->
+                    <div id="img-2">
+                        <h2>Lorem, ipsum dolor.</h2>
+                    </div>
+                </div>
+            </footer>
         </div>
-
-        <!-- immagini con didascalia -->
-        <figure>
-            <img src="./img/tim-1.jpg" alt="">
-            <img src="./img/tim-2.jpg" alt="">
-            <figcaption>
-                <p class="small-text">1st Photo: Jhon S. and James L.Knight Foundation, by Scott Henrichsen <br>
-                2nd Photo: Wikimedia, by Paul Clarke</p>
-            </figcaption>
-        </figure>
-
-        <!-- testo scritto 1 -->
-        <section id="paragraph-">
-            <p class="normal-text">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. <mark>Neque assumenda ea in consectetur, odio sed, veniam dicta autem voluptatum,</mark>amet dolore incidunt pariatur nobis! Voluptatum ipsa numquam assumenda quae quas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit vitae nisi quia illum accusamus dolorum, voluptas ipsam laborum facilis exercitationem iure eveniet asperiores vel minima soluta dolores veritatis, harum cum!
-            </p>
-        </section>
-
-        <!-- unordered list -->
-        <section>
-            <ul>
-                <li class="normal-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus natus neque facilis deserunt voluptatibus voluptate!</li>
-                <li class="normal-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus natus neque facilis deserunt voluptatibus voluptate!</li>
-                <li class="normal-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus natus neque facilis deserunt voluptatibus voluptate!</li>
-            </ul>
-        </section>
-
-        <!-- tabella -->
-        <section>
-            <table>
-                <thead>
-                    <tr>
-                        <th class="column-small">Lorem, ipsum dolor.</th>
-                        <th class="column-small">Lorem, ipsum dolor.</th>
-                        <th class="column-big">Lorem, ipsum dolor.</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Lorem, ipsum dolor.</td>
-                        <td>Lorem, ipsum dolor.</td>
-                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis delectus pariatur dignissimos autem voluptate nihil deleniti facere iure dolorem, quia blanditiis adipisci error. Enim aspernatur odit doloribus fugit optio! Quis.</td>
-                    </tr>
-
-                    <tr>
-                        <td>Lorem, ipsum dolor.</td>
-                        <td>Lorem, ipsum dolor.</td>
-                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis delectus pariatur dignissimos autem voluptate nihil deleniti facere iure dolorem, quia blanditiis adipisci error. Enim aspernatur odit doloribus fugit optio! Quis.</td>
-                    </tr>
-
-                    <tr>
-                        <td>Lorem, ipsum dolor.</td>
-                        <td>Lorem, ipsum dolor.</td>
-                        <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis delectus pariatur dignissimos autem voluptate nihil deleniti facere iure dolorem, quia blanditiis adipisci error. Enim aspernatur odit doloribus fugit optio! Quis.</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-
-        <!-- testo scritto 2 -->
-        <section id="paragraph">
-            <p class="normal-text">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.Neque assumenda ea in consectetur, odio sed, veniam dicta autem voluptatum,amet dolore incidun <mark>t pariatur nobis! Voluptatum ipsa numquam assumenda quae quas! Lorem ipsum </mark>dolor sit amet consectetur adipisicing elit. Suscipit vitae nisi quia illum accusamus dolorum, voluptas ipsam laborum facilis exercitationem iure eveniet asperiores vel minima soluta dolores veritatis, harum cum!
-            </p>
-        </section>
-    </main>
-
-    <!-- potrebbero interessarti -->
-    <footer>
-        <h3>Potrebbero interessarti</h3>
-
-        <div id="immagini-finali">
-            <!-- immagine 1 -->
-            <div id="img-1">
-                <h2>Lorem, ipsum dolor.</h2>
-            </div>
-
-            <!-- immagine 2 -->
-            <div id="img-2">
-                <h2>Lorem, ipsum dolor.</h2>
-            </div>
-        </div>
-    </footer>
+    </div>
 </body>
 </html>

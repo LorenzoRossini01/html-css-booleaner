@@ -9,7 +9,9 @@ body{
 
 .container2{
  width: 80%;
- margin: auto;
+ /* margin: auto; */
+ margin-left: 10%; 
+ margin-right: 10%; 
 }
 
 #logo{
@@ -53,7 +55,7 @@ header{
 figure{
  width: 100%;
  margin: 0;
- text-align: center;
+ text-align: left;
 }
 
 #container-img{
@@ -63,7 +65,7 @@ figure{
 }
 
 .img{
- height:343px;
+ height:414px;
  width: auto;
 }
 
@@ -80,6 +82,7 @@ ul{
 table{
  min-width: 460px;
  border-collapse: collapse;
+ width: 100%;
 }
 thead{
  background-color: #20A9E5;
