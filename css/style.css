@@ -1,5 +1,6 @@
 body{
     margin: 0 auto;
+
 }
 
 
@@ -46,4 +47,9 @@ main{
 figure{
     width: auto;
     margin-left: 0;
+}
+
+.normal-text{
+    font-size: medium;
+    font-weight: 400;
 }
